@@ -1,0 +1,52 @@
+.hero-body {
+  background-image: url("/assets/dancing.png");
+
+  height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.title {
+  margin-top: 3rem;
+}
+.subtitle {
+  margin-bottom: 4rem;
+}
+
+@media screen and (max-width: 480px) {
+  .title {
+    font-size: 1.5rem;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+  }
+  .subtitle {
+    margin-bottom: 5rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+}
+
+.try {
+  background-color: #dbc14f;
+  border-radius: 0.3rem;
+  border: 0px;
+}
+.try:hover {
+  background-color: #dbc14f;
+  color: black;
+}
+.learn {
+  background-color: transparent;
+  color: white;
+  border-radius: 0.3rem;
+}
+.learn:hover {
+  background-color: white;
+  color: black;
+}

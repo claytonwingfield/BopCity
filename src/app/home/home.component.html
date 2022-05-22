@@ -1,0 +1,17 @@
+<div class="container">
+    <app-nav-bar></app-nav-bar>
+    <app-jumbotron></app-jumbotron>
+    <app-search></app-search>
+    <div class="container-2">
+        <app-music-grid *ngFor="let song of musicInfo" [songName]="song.songName" [artist]="song.artist"
+            [albumArt]="song.albumArt">
+        </app-music-grid>
+
+    </div>
+
+    <app-explore-trending></app-explore-trending>
+    <app-phones></app-phones>
+    <app-banner></app-banner>
+    <app-thankyou></app-thankyou>
+    <app-footer></app-footer>
+</div>

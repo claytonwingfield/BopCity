@@ -1,0 +1,36 @@
+.field {
+  margin-top: 2rem;
+}
+.input {
+  margin-left: 1rem;
+}
+
+.button {
+  background-color: #dbc14f;
+  margin-right: 1rem;
+}
+.button:hover {
+  background-color: #69c5d4;
+}
+
+.img {
+  width: 70px;
+  height: 70px;
+}
+@media screen and (max-width: 480px) {
+  .img {
+    width: 170px;
+  }
+  .full-text {
+    display: none;
+  }
+  .small-text {
+    display: inline-block;
+  }
+}
+.header {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 2em;
+  color: black;
+}

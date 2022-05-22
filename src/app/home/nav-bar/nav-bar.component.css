@@ -1,0 +1,10 @@
+.signUp {
+  background-color: #dbc14f;
+}
+.button {
+  border-radius: 0.3rem;
+}
+.button:hover {
+  background-color: black;
+  color: white;
+}

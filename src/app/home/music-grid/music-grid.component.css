@@ -1,0 +1,27 @@
+.card .card-image,
+.card .card-image .image img {
+  height: 200px;
+}
+@media screen and (max-width: 480px) {
+  .card .card-image,
+  .card .card-image .image img {
+    height: 350px;
+  }
+}
+.media {
+  height: 3rem;
+}
+.song-name {
+  font-weight: bold;
+  font-size: 0.8em;
+  margin-top: 0rem;
+  margin-bottom: 0.5rem;
+}
+.hover_class {
+  opacity: 1;
+  z-index: -1;
+}
+
+figure:hover {
+  opacity: 0.8;
+}

@@ -1,0 +1,22 @@
+.hero {
+  background-color: white;
+  text-align: center;
+}
+.hero-body {
+  margin-top: 3rem;
+  color: black;
+}
+.create {
+  background-color: #dbc14f;
+}
+a {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+@media screen and (max-width: 480px) {
+  .title {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+}

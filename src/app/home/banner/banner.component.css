@@ -1,0 +1,31 @@
+.hero {
+  background-image: url("/assets/creatorphoto.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media screen and (max-width: 480px) {
+  .hero {
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  br {
+    display: none;
+  }
+}
+.hero-body {
+  margin: 2rem 2rem;
+}
+.button {
+  background-color: transparent;
+  margin-top: 1rem;
+  color: white;
+}
+.subtitle {
+  font-size: 1.7rem;
+}
+.title {
+  margin-bottom: 3rem;
+}
