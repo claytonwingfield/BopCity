@@ -1,23 +1,26 @@
 <nav class="navbar" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-        <a class="navbar-item" href="#">
+        <a routerLink="/''" class="navbar-item" href="#">
             <img [src]="logoUrl" width="100" height="100">
         </a>
 
-        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="true" data-target="navbarBasicExample">
+        <a (click)="toggleNavbar()" role="button" #navBurger class="navbar-burger burger" aria-label="menu"
+            aria-expanded="false" data-target="navMenu">
+
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
+
         </a>
     </div>
 
-    <div id="navbarBasicExample" class="navbar-menu">
+    <div id="navMenu" class="navbar-menu" #navMenu>
         <div class="navbar-start">
-            <a class="navbar-item">
+            <a routerLink="/" class="navbar-item">
                 Home
             </a>
 
-            <a class="navbar-item">
+            <a routerLink="/getting-started" class="navbar-item">
                 Getting Started
             </a>
 
@@ -26,18 +29,18 @@
                     Grow your career
                 </a>
 
-                <div class="navbar-dropdown">
+                <div routerLink="/profile" class=" navbar-dropdown">
                     <a class="navbar-item">
                         Profile
                     </a>
-                    <a class="navbar-item">
+                    <a routerLink="/engage" class="navbar-item">
                         Engage
                     </a>
-                    <a class="navbar-item">
+                    <a routerLink="/monetization" class="navbar-item">
                         Monetization
                     </a>
                     <hr class="navbar-divider">
-                    <a class="navbar-item">
+                    <a routerLink="/fourm" class="navbar-item">
                         Forum
                     </a>
                 </div>
@@ -49,10 +52,10 @@
         <div class="navbar-end">
             <div class="navbar-item">
                 <div class="buttons">
-                    <a class="button signUp">
+                    <a routerLink="/sign-up" class="button signUp">
                         <strong>Sign up</strong>
                     </a>
-                    <a class="button is-light">
+                    <a routerLink="/login" class="button is-light">
                         Log in
                     </a>
                 </div>

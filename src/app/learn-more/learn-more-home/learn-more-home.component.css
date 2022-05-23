@@ -1,0 +1,59 @@
+.container {
+  background-color: white;
+  margin: 0rem;
+  padding: 0rem;
+}
+.hero-body {
+  background-image: url("/assets/learn-more.jpg");
+  height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.title {
+  font-size: 3rem;
+  margin-top: 0 auto;
+}
+.subtitle {
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 480px) {
+  .title {
+    font-size: 3.5rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+  }
+  .subtitle {
+    margin-bottom: 1rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.try {
+  background-color: #dbc14f;
+  border-radius: 0.3rem;
+  border: 0px;
+}
+.try:hover {
+  background-color: #dbc14f;
+  color: black;
+}
+.learn {
+  background-color: transparent;
+  color: white;
+  border-radius: 0.3rem;
+}
+.learn:hover {
+  background-color: white;
+  color: black;
+}
+.rest {
+  font: 0.5rem;
+}
