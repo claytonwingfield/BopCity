@@ -1,6 +1,6 @@
 <nav class="navbar" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-        <a routerLink="/''" class="navbar-item" href="#">
+        <a routerLink="/" class="navbar-item" href="#">
             <img [src]="logoUrl" width="100" height="100">
         </a>
 
@@ -29,8 +29,8 @@
                     Grow your career
                 </a>
 
-                <div routerLink="/profile" class=" navbar-dropdown">
-                    <a class="navbar-item">
+                <div class=" navbar-dropdown">
+                    <a routerLink="/profile" class="navbar-item">
                         Profile
                     </a>
                     <a routerLink="/engage" class="navbar-item">
