@@ -31,4 +31,7 @@ a {
   .subtitle {
     margin-left: 0rem;
   }
+  br {
+    display: none;
+  }
 }
